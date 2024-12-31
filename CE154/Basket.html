@@ -1,0 +1,77 @@
+<!---- Mu23139 ----> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Linking the style sheet "Basket.css"-->
+        <link rel="stylesheet" href="css\Basket.css">
+
+    </head>
+
+    <body>
+        <!-- Creating of the navigation menu found at the bottom of the webpage, inspired by the one made by W3Schools-->
+        <div class="tnav">
+            <a class="active" href="http://127.0.0.1:5500/Index.html">Home</a>
+            <a href="http://127.0.0.1:5500/About%20the%20Artist.html">About The Artist</a>
+            <a href="http://127.0.0.1:5500/Art%20Listing.html">Art Listings</a>
+            <a href="http://127.0.0.1:5500/Art%20Details.html">Art Details</a>
+            <a href="http://127.0.0.1:5500/Basket.html">Basket</a>
+          </div>
+
+
+            <header>
+                <!--Making the header for the webpage-->
+                <h1>My Basket</h1>
+            </header>
+
+            <!--Creating the section for the first item, in this case its the Boruto art-->
+            <main>
+                <section class="basket-items">
+                    <div class="item" data-id="1">
+                        <img src="Images\ccnscwn0us051.jpg" alt="Item 1" class="Image1"> <!-- Available in Sources word document, Source: Masashi Kishimoto -->
+                        
+                        <!-- Creating the area under the art piece where the number of the item as well as the price is displayed-->
+                        <div class="item-details">
+                            <h2>Item 1</h2>
+                            <p>$100.00</p>
+
+                            <!--Creating the remove item button (Doesnt work it is for show)-->
+                            <button class="remove-item">Remove</button>
+                        </div>
+                    </div>
+
+                    <!-- Creating the area under the art piece where the number of the item as well as the price is displayed-->
+                    <div class="item" data-id="2">
+                        <img src="Images\43l8l7k5k1q71.png" alt="Item 2" class="Image2"> <!-- Available in Sources word document, Source: “Naruto” Chapter 618 -->
+                        
+                         <!-- Creating the area under the art piece where the number of the item as well as the price is displayed-->
+                         <div class="item-details">
+                            <h2>Item 2</h2>
+                            <p>$150.00</p>
+
+                            <!--Creating the remove item button (Doesnt work it is for show)-->
+                            <button class="remove-item">Remove</button>
+                        </div>
+
+                    </div>
+
+                <!-- The bottom left of the webpage, this is where the final price of all items is as well as the checkout button (The button does not work it is for show)-->
+                </section>
+                <section class="checkout">
+                    <h2>Total: <span id="total">$250.00</span></h2>
+                    <button id="checkout-btn" class="Checkout">Checkout</button>
+                </section>
+
+            </main>
+
+            <!-- Footer to add the copyright for the website-->
+            <footer>©London Arts</footer>
+
+        </body>
+        
+
+
+
+
+
+
+</html>

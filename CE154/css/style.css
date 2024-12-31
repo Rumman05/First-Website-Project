@@ -1,0 +1,95 @@
+/* Mu23139 */
+
+/* Used to set the margin, padding and the font for everything on the page*/
+*{
+margin: 0;
+padding: 0;
+font-family: 'Raleway';
+}
+
+/* Used to position and size the heading of the webpage */
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Used to create the black/grey banner that is the background of the heading of the webpage, this allows it to pop a little more as well as make the website look cleaner*/
+.banner {
+    background-color: #333; 
+    color: #fff; 
+    padding: 0px; 
+    text-align: center; 
+}
+
+/* Used to set the whole artist-section to follow the rules set below, this allows for consistency in everything that falls under the section tag */
+.artist-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+/* Sets the margin for the artist-info section*/
+.artist-info {
+    margin-bottom: 20px; 
+}
+
+/* Used to resize and to align the image so that its in the center and is the main focus of the home page */
+.artist-image img {
+    width: 400px; 
+    height: 200px; 
+    padding: 10px; 
+    display: inline-block;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+}
+
+/* Used to set the font size and the margins of the h2 tag, the name of the artist/ the link */
+.artist-info h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+/* Used to set the margin and the size of the lorem Ipsum part of the webpage */
+.artist-info p {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+
+
+/*This whole section below is used to create the navigation menu at the bottom of the screen */
+
+/* Adds the black background to the bar behind all the links*/
+.tnav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Used to change the colour of the links in the bar as well as align it to the center and adjust things such as font size and the padding*/
+.tnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Changes the colour of the home page part of the navigation bar, this allows it to be more distinct to the other links*/
+.tnav a.active {
+    background-color: red;
+}
+
+/* Changes the colour of the navigation bar when hovered over*/
+.tnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
